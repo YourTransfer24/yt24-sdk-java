@@ -16,13 +16,13 @@ Fully aligned with the official YourTransfer24 API documentation.
 <pre><code>&lt;dependency&gt;
     &lt;groupId&gt;com.yourtransfer24&lt;/groupId&gt;
     &lt;artifactId&gt;yt24-sdk-java&lt;/artifactId&gt;
-    &lt;version&gt;1.0.0&lt;/version&gt;
+    &lt;version&gt;1.4&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>
 
 <p>Using Gradle:</p>
 
-<pre><code>implementation 'com.yourtransfer24:yt24-sdk-java:1.0.0'
+<pre><code>implementation 'com.yourtransfer24:yt24-sdk-java:1.4'
 </code></pre>
 
 <hr>
