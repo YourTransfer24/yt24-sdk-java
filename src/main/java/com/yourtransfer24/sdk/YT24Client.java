@@ -26,9 +26,9 @@ public class YT24Client {
         this.apiKey = apiKey;
 
         if ("sandbox".equalsIgnoreCase(environment)) {
-            this.baseUrl = "https://sandbox.yourtransfer24.com/wp-json/yt24/v1";
+            this.baseUrl = "https://sandbox.yourtransfer24.com/api/yt24/v1";
         } else {
-            this.baseUrl = "https://www.yourtransfer24.com/wp-json/yt24/v1";
+            this.baseUrl = "https://www.yourtransfer24.com/api/yt24/v1";
         }
 
         this.httpClient = HttpClient.newBuilder()
